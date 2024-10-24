@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: BSD-2-Clause
 #
-# Copyright (c) 2021 Rubicon Communications, LLC (Netgate). All Rights Reserved.
+# Copyright (c) 2021 Rubicon Communications, LLC (OpenSourceCompany). All Rights Reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

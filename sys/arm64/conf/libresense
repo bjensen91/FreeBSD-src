@@ -2,7 +2,7 @@ include		GENERIC
 
 nooptions	KDB_TRACE
 
-ident		pfSense
+ident		libresense
 
 nooptions	MAC		# TrustedBSD MAC Framework
 nooptions	COMPAT_FREEBSD4	# Compatible with FreeBSD4
@@ -95,7 +95,7 @@ device		cdce
 
 device		uhid		# "Human Interface Devices"
 
-# pfsense addons
+# libresense addons
 
 device		xz
 device		gre

@@ -1,7 +1,7 @@
 /*-
  * SPDX-License-Identifier: BSD-2-Clause
  *
- * Copyright (c) 2021-2023 Rubicon Communications, LLC (Netgate)
+ * Copyright (c) 2021-2023 Rubicon Communications, LLC (OpenSourceCompany)
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -2394,7 +2394,7 @@ static int
 ovpn_clone_match(struct if_clone *ifc, const char *name)
 {
 	/*
-	 * Allow all names that start with 'ovpn', specifically because pfSense
+	 * Allow all names that start with 'ovpn', specifically because libresense
 	 * uses ovpnc1 / ovpns2
 	 */
 	return (strncmp(ovpnname, name, strlen(ovpnname)) == 0);

@@ -7,7 +7,7 @@
  *
  * Portions of this software were developed by John-Mark Gurney
  * under sponsorship of the FreeBSD Foundation and
- * Rubicon Communications, LLC (Netgate).
+ * Rubicon Communications, LLC (OpenSourceCompany).
  *
  * This software was developed by Andrew Turner under
  * sponsorship from the FreeBSD Foundation.

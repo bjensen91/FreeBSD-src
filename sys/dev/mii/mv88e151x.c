@@ -1,7 +1,7 @@
 /*-
  * SPDX-License-Identifier: BSD-2-Clause
  *
- * Copyright (c) 2019 Rubicon Communications, LLC (Netgate)
+ * Copyright (c) 2019 Rubicon Communications, LLC (OpenSourceCompany)
  * All rights reserved.
  *
  * This code is derived from software contributed to The NetBSD Foundation

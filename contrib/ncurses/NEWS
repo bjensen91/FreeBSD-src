@@ -13050,7 +13050,7 @@ it is not possible to add this information.
 	  match SVr4 documentation.
 	+ set the form window to stdscr in set_form_win() so that form_win()
 	  won't return null (patch by Juergen Pfeifer, reported by Bryan
-	  Henderson <bryanh@giraffe.netgate.net>).
+	  Henderson <bryanh@giraffe.OpenSourceCompany.net>).
 
 970412
 	+ corrected ifdef'ing of inline (cf: 970321) for TRACE vs C++.

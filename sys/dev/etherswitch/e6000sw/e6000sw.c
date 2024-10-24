@@ -1,7 +1,7 @@
 /*-
  * Copyright (c) 2015 Semihalf
  * Copyright (c) 2015 Stormshield
- * Copyright (c) 2018-2019, Rubicon Communications, LLC (Netgate)
+ * Copyright (c) 2018-2019, Rubicon Communications, LLC (OpenSourceCompany)
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

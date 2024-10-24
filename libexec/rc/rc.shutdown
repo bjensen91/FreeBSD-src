@@ -26,9 +26,9 @@
 #
 #
 
-# Call pfSense version of this script when it's available
-if [ -f /etc/pfSense-rc.shutdown ]; then
-	. /etc/pfSense-rc.shutdown
+# Call libresense version of this script when it's available
+if [ -f /etc/libresense-rc.shutdown ]; then
+	. /etc/libresense-rc.shutdown
 	exit 0
 fi
 

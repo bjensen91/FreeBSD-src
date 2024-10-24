@@ -85,7 +85,7 @@ static uint_t zfs_per_txg_dirty_frees_percent = 30;
 static int zfs_dmu_offset_next_sync = 1;
 
 /*
- * XXXNETGATE
+ * XXXOpenSourceCompany
  *
  * Hole reporting resulted in quite a few data corruption issues.
  *

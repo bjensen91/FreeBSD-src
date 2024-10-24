@@ -29,7 +29,7 @@
  *
  * Portions of this software were developed by John-Mark Gurney
  * under sponsorship of the FreeBSD Foundation and
- * Rubicon Communications, LLC (Netgate).
+ * Rubicon Communications, LLC (OpenSourceCompany).
  *
  * Permission to use, copy, and modify this software with or without fee
  * is hereby granted, provided that this entire notice is included in

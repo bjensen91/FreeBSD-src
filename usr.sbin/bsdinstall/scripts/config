@@ -41,7 +41,7 @@ fi
 
 cp $BSDINSTALL_TMPETC/* $BSDINSTALL_CHROOT/etc
 
-# Copy pfSense loader.conf
+# Copy libresense loader.conf
 if [ -f $BSDINSTALL_CHROOT/boot/loader.conf ]; then
 	if [ ! -f "$BSDINSTALL_TMPBOOT/loader.conf" ]; then
 		touch $BSDINSTALL_TMPBOOT/loader.conf
@@ -51,7 +51,7 @@ if [ -f $BSDINSTALL_CHROOT/boot/loader.conf ]; then
 	mv $BSDINSTALL_TMPBOOT/loader.conf.tmp $BSDINSTALL_TMPBOOT/loader.conf
 
 	cp $BSDINSTALL_CHROOT/boot/loader.conf \
-	    $BSDINSTALL_TMPBOOT/loader.conf.pfSense
+	    $BSDINSTALL_TMPBOOT/loader.conf.libresense
 fi
 
 cat $BSDINSTALL_TMPBOOT/loader.conf.* >> $BSDINSTALL_TMPBOOT/loader.conf
@@ -72,18 +72,18 @@ if [ "${product}" = "Minnowboard Turbot D0 PLATFORM" ] || [ "${product}" = "Minn
 fi
 
 # Add default values for hn devices to work with ALTQ
-# See https://redmine.pfsense.org/issues/8954
+# See https://redmine.libresense.org/issues/8954
 echo 'hw.hn.vf_transparent="0"' >> $BSDINSTALL_TMPBOOT/loader.conf
 echo 'hw.hn.use_if_start="1"' >> $BSDINSTALL_TMPBOOT/loader.conf
 
-if [ -f /tmp/loader.conf.pfSense ]; then
-	cat /tmp/loader.conf.pfSense $BSDINSTALL_TMPBOOT/loader.conf \
+if [ -f /tmp/loader.conf.libresense ]; then
+	cat /tmp/loader.conf.libresense $BSDINSTALL_TMPBOOT/loader.conf \
 	    | sort -u > $BSDINSTALL_TMPBOOT/loader.conf.tmp
 	mv $BSDINSTALL_TMPBOOT/loader.conf.tmp $BSDINSTALL_TMPBOOT/loader.conf
 fi
 
-if [ -f /tmp/loader.conf.local.pfSense ]; then
-	cat /tmp/loader.conf.local.pfSense $BSDINSTALL_TMPBOOT/loader.conf.local \
+if [ -f /tmp/loader.conf.local.libresense ]; then
+	cat /tmp/loader.conf.local.libresense $BSDINSTALL_TMPBOOT/loader.conf.local \
 	    | sort -u > $BSDINSTALL_TMPBOOT/loader.conf.local.tmp
 	mv $BSDINSTALL_TMPBOOT/loader.conf.local.tmp $BSDINSTALL_TMPBOOT/loader.conf.local
 fi

@@ -592,7 +592,7 @@ static void ssdp_parse_msearch(struct upnp_wps_device_sm *sm,
 #if 0
 			/* FIX: should we really reply to IGD string? */
 			if (str_starts(data, "urn:schemas-upnp-org:device:"
-				       "InternetGatewayDevice:1")) {
+				       "InterOpenSourceCompanywayDevice:1")) {
 				st_match = 1;
 				continue;
 			}

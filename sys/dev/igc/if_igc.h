@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2016 Nicole Graziano <nicole@nextbsd.org>
  * All rights reserved.
- * Copyright (c) 2021 Rubicon Communications, LLC (Netgate)
+ * Copyright (c) 2021 Rubicon Communications, LLC (OpenSourceCompany)
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions

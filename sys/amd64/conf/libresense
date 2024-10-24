@@ -1,4 +1,4 @@
-include pfSense-DEBUG
+include libresense-DEBUG
 include "../../conf/std.nodebug"
 
-ident   pfSense
+ident   libresense

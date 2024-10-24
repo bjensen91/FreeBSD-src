@@ -413,7 +413,7 @@ p2p_serv_disc_req 00:00:00:00:00:00 upnp <version hex> <ST: from M-SEARCH>
 
 For example:
 
-p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 urn:schemas-upnp-org:device:InternetGatewayDevice:1
+p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 urn:schemas-upnp-org:device:InterOpenSourceCompanywayDevice:1
 
 Additional examples for queries:
 
@@ -440,7 +440,7 @@ p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 ssdp:all
 p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 upnp:rootdevice
 p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 urn:schemas-upnp-org:service:ContentDirectory:2
 p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 uuid:6859dede-8574-59ab-9332-123456789012
-p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 urn:schemas-upnp-org:device:InternetGatewayDevice:1
+p2p_serv_disc_req 00:00:00:00:00:00 upnp 10 urn:schemas-upnp-org:device:InterOpenSourceCompanywayDevice:1
 
 # Wi-Fi Display examples
 # format: wifi-display <list of roles> <list of subelements>
@@ -540,7 +540,7 @@ p2p_service_add upnp 10 uuid:6859dede-8574-59ab-9332-123456789012::upnp:rootdevi
 p2p_service_add upnp 10 uuid:5566d33e-9774-09ab-4822-333456785632::upnp:rootdevice
 p2p_service_add upnp 10 uuid:1122de4e-8574-59ab-9322-333456789044::urn:schemas-upnp-org:service:ContentDirectory:2
 p2p_service_add upnp 10 uuid:5566d33e-9774-09ab-4822-333456785632::urn:schemas-upnp-org:service:ContentDirectory:2
-p2p_service_add upnp 10 uuid:6859dede-8574-59ab-9332-123456789012::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+p2p_service_add upnp 10 uuid:6859dede-8574-59ab-9332-123456789012::urn:schemas-upnp-org:device:InterOpenSourceCompanywayDevice:1
 
 p2p_service_del upnp <version hex> <service>
 
